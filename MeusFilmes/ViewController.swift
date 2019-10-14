@@ -53,9 +53,12 @@ class ViewController: UITableViewController{
         
         var filme = filmes[indexPath.row]
         let celulaReuso = "celulaReuso"
-        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath)
-        celula.textLabel?.text = filme.titulo
-        celula.imageView?.image = filme.image
+        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath) as! FilmeCelula
+        celula.filmeImageView.image = filme.image
+        celula.tituloLabel.text = filme.titulo
+        celula.labelDescricao.text = filme.descricao
+        //celula.textLabel?.text = filme.titulo
+        //celula.imageView?.image = filme.image
         
         return celula
         
