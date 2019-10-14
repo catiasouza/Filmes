@@ -51,13 +51,19 @@ class ViewController: UITableViewController{
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        var filme = filmes[indexPath.row]
+        let filme = filmes[indexPath.row]
         let celulaReuso = "celulaReuso"
         let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath) as! FilmeCelula
         celula.filmeImageView.image = filme.image
         celula.tituloLabel.text = filme.titulo
         celula.labelDescricao.text = filme.descricao
+        
+        // ARREDONDANDO IMAGEMS
+        celula.filmeImageView.layer.cornerRadius = 15
+        //celula.filmeImageView.clipsToBounds = true
+        
         //celula.textLabel?.text = filme.titulo
+        
         //celula.imageView?.image = filme.image
         
         return celula
