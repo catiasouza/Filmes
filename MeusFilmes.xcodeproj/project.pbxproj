@@ -15,6 +15,7 @@
 		75002B702354BD1F00CA3687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75002B6E2354BD1F00CA3687 /* LaunchScreen.storyboard */; };
 		75002B782354D07B00CA3687 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75002B772354D07B00CA3687 /* Filme.swift */; };
 		75002B7A2354F8D800CA3687 /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75002B792354F8D800CA3687 /* FilmeCelula.swift */; };
+		75002B7C2355035600CA3687 /* DetalhesFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75002B7B2355035600CA3687 /* DetalhesFilmeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		75002B712354BD1F00CA3687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75002B772354D07B00CA3687 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
 		75002B792354F8D800CA3687 /* FilmeCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		75002B7B2355035600CA3687 /* DetalhesFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesFilmeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				75002B652354BD1E00CA3687 /* SceneDelegate.swift */,
 				75002B672354BD1E00CA3687 /* ViewController.swift */,
 				75002B792354F8D800CA3687 /* FilmeCelula.swift */,
+				75002B7B2355035600CA3687 /* DetalhesFilmeViewController.swift */,
 				75002B772354D07B00CA3687 /* Filme.swift */,
 				75002B692354BD1E00CA3687 /* Main.storyboard */,
 				75002B6C2354BD1F00CA3687 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				75002B7A2354F8D800CA3687 /* FilmeCelula.swift in Sources */,
 				75002B642354BD1E00CA3687 /* AppDelegate.swift in Sources */,
 				75002B662354BD1E00CA3687 /* SceneDelegate.swift in Sources */,
+				75002B7C2355035600CA3687 /* DetalhesFilmeViewController.swift in Sources */,
 				75002B782354D07B00CA3687 /* Filme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
